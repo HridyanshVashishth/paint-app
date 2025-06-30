@@ -1,3 +1,5 @@
+### 📄 `README.md`
+
 # 🎨 Drawing Playground
 
 A sleek and interactive drawing app built using **HTML**, **CSS**, and **JavaScript**. Customize your brush, change the canvas background, switch tools, and download your artwork — all from your browser!
@@ -18,14 +20,14 @@ A sleek and interactive drawing app built using **HTML**, **CSS**, and **JavaScr
 
 ## 📁 Project Structure
 
-drawing-playground/
-├── paint_app.html # Main HTML layout
-├── paint_app_styles.css # Beautiful UI and animations
-└── paint_app_script.js # Drawing logic and tool controls
+```
 
-yaml
-Copy
-Edit
+drawing-playground/
+├── paint\_app.html           # Main HTML layout
+├── paint\_app\_styles.css     # Beautiful UI and animations
+└── paint\_app\_script.js      # Drawing logic and tool controls
+
+````
 
 ---
 
@@ -36,40 +38,46 @@ Edit
 ```bash
 git clone https://github.com/your-username/drawing-playground.git
 cd drawing-playground
+````
 
-🌐 Open in browser
-Just double-click paint_app.html or run using a local server (e.g., Live Server in VS Code).
+### 🌐 Open in browser
 
-📸 Screenshot
-(Add a screenshot or demo GIF here)
-Example:
+Just double-click `paint_app.html` or run using a local server (e.g., Live Server in VS Code).
 
-🔧 Customization
+---
+
+## 🔧 Customization
+
 You can:
 
-Change canvas size in HTML or script.
+* Change canvas size in HTML or script.
+* Customize initial brush/background colors.
+* Adjust min/max brush size.
 
-Customize initial brush/background colors.
+---
 
-Adjust min/max brush size.
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
-HTML5 + Canvas API
+* HTML5 + Canvas API
+* CSS3 (glassmorphism, gradients, transitions)
+* JavaScript ES6 (event handling, canvas drawing)
 
-CSS3 (glassmorphism, gradients, transitions)
+---
 
-JavaScript ES6 (event handling, canvas drawing)
+## 🧠 Learning Goals
 
-🧠 Learning Goals
-Working with <canvas>
+* Working with `<canvas>`
+* Event handling for mouse/touch inputs
+* Dynamic styling with CSS
+* Functional web app without any frameworks
 
-Event handling for mouse/touch inputs
+---
 
-Dynamic styling with CSS
+## 📜 License
 
-Functional web app without any frameworks
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-📜 License
-This project is licensed under the MIT License.
+---
 
-© 2025 Hridyansh Vashistha | Crafted with ❤️
+> © 2025 Hridyansh Vashistha | Crafted with ❤️
+
