@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drawing Playground</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="paint_app_styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎨 Drawing Playground</h1>
+    
+    <div class="toolbar">
+      <div class="control-group">
+        <label>Brush Color</label>
+        <div class="color-input-wrapper">
+          <input type="color" id="colorPicker" value="#667eea">
+        </div>
+      </div>
+      
+      <div class="control-group">
+        <label>Brush Size</label>
+        <input type="range" id="brushSize" min="1" max="50" value="5">
+        <div class="range-display" id="sizeDisplay">5px</div>
+      </div>
+      
+      <div class="control-group">
+        <label>Background</label>
+        <div class="color-input-wrapper">
+          <input type="color" id="bgColor" value="#ffffff">
+        </div>
+      </div>
+      
+      <div>
+        <button id="brushTool" class="tool-button active">🖌 Brush</button>
+        <button id="eraserTool" class="tool-button">🧽 Eraser</button>
+      </div>
+      
+      <div>
+        <button id="clearBtn" class="action-button clear">🧹 Clear</button>
+        <button id="downloadBtn" class="action-button">💾 Download</button>
+      </div>
+    </div>
+    
+    <div class="canvas-container">
+      <canvas id="canvas" width="800" height="500"></canvas>
+    </div>
+    
+    <footer class="footer">
+      <p>© 2025 Hridyansh | Crafted with ❤️</p>
+    </footer>
+  </div>
+
+  <script src="paint_app_script.js"></script>
+</body>
+</html>
